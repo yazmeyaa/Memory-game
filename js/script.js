@@ -78,7 +78,7 @@ function checkForMatch() {
 		//если карты не совпали
 		quantityOfCards = [];
 		cards[id1].setAttribute("src", "img/0.jpg");
-		cards[id2].setAttribute("src", "img/0.jpg");
+		cards[id2].setAttribute("src",  "img/0.jpg");
 		cards[id1].classList.remove('flip');
 		cards[id2].classList.remove('flip');
 
