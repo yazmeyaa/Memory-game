@@ -40,8 +40,6 @@ body {
 	-moz-text-size-adjust: 100%;
 	-ms-text-size-adjust: 100%;
 	text-size-adjust: 100%;
-	text-size-adjust: 100%;
-	text-size-adjust: 100%;
 }
 
 input,
@@ -97,7 +95,6 @@ h6 {
 
 /*--------------------------------------*/
 body{
-	background: rgb(143,0,244);
 	background: linear-gradient(0deg, rgba(143,0,244,1) 0%, rgba(0,0,0,1) 100%);
 	background-repeat: no-repeat;
         background-size: cover;
