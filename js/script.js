@@ -7,7 +7,7 @@ const restartBtn = document.querySelector(".restart");
 window.addEventListener("DOMContentLoaded", () => {
 	function req(){
 		const request = new XMLHttpRequest();
-		request.open("GET", "http://localhost:3000/cardsArr");
+		request.open("GET", " https://github.com/AlexandraKuraeva/Memory-game/blob/main/db.json");
 		request.setRequestHeader("Content-type", "application/json; charset=utf-8");
 		request.send();
 		request.addEventListener('load', function(){
