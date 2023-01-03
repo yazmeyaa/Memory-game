@@ -80,6 +80,7 @@ window.addEventListener("DOMContentLoaded", () => {
 					cardsChosenArr = [];
 					cardsChosenArrId = [];
 				}
+
 				function flipCard() {
 					quantityOfCards.push(this);
 					if (quantityOfCards.length > 2) {
@@ -100,6 +101,7 @@ window.addEventListener("DOMContentLoaded", () => {
 					this.classList.add('flip');
 					this.removeEventListener("click", flipCard);
 				}
+
 				function showModal() {
 					modal.classList.add('show');
 					modalOverlay.classList.add('show');
@@ -117,6 +119,17 @@ window.addEventListener("DOMContentLoaded", () => {
 	}
 	req();
 });
+
+
+
+
+
+
+
+
+
+
+
 
 
 
