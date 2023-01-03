@@ -19,7 +19,7 @@ window.addEventListener("DOMContentLoaded", () => {
 					for (let i = 0; i < cardsArr.length; i++) {
 						const imgCard = document.createElement('IMG');
 						imgCard.setAttribute("id", String(i));
-						imgCard.setAttribute("src", "../img/0.jpg");
+						imgCard.setAttribute("src", "img/0.jpg");
 						imgCard.setAttribute("class", "game__card");
 						imgCard.addEventListener("click", flipCard);
 
@@ -67,8 +67,8 @@ window.addEventListener("DOMContentLoaded", () => {
 					} else {
 						//если карты не совпали
 						quantityOfCards = [];
-						cards[id1].setAttribute("src", "../img/0.jpg");
-						cards[id2].setAttribute("src", "../img/0.jpg");
+						cards[id1].setAttribute("src", "img/0.jpg");
+						cards[id2].setAttribute("src", "img/0.jpg");
 						cards[id1].classList.remove('flip');
 						cards[id2].classList.remove('flip');
 
